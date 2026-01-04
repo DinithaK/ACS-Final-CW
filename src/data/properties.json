@@ -38,14 +38,14 @@
             "bedrooms":3,
 			"price":455000,
 			"tenure":"Freehold",
-			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
-			"location":"Crofton Road Orpington BR6",
-			"picture":"images/prop2pic1small.jpg",
-			"url":"properties/prop2.html",
+			"description":"3 bedroom flat",
+			"location":"London",
+			"picture":"images/prop3pic1small.jpg",
+			"url":"properties/prop3.html",
             "added": {
-                "month":"September",
-                "day":14,
-                "year":2022
+                "month":"January",
+                "day":21,
+                "year":2023
             }
         },
         {
@@ -54,14 +54,14 @@
             "bedrooms":4,
 			"price":869000,
 			"tenure":"Freehold",
-			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
-			"location":"Crofton Road Orpington BR6",
-			"picture":"images/prop2pic1small.jpg",
-			"url":"properties/prop2.html",
+            "description":"4 bedroom house",
+            "location":"Brampton",
+			"picture":"images/prop4pic1small.jpg",
+			"url":"properties/prop4.html",
             "added": {
-                "month":"September",
-                "day":14,
-                "year":2022
+                "month":"April",
+                "day":8,
+                "year":2024
             }
         },
         {
@@ -70,30 +70,30 @@
             "bedrooms":2,
 			"price":254500,
 			"tenure":"Freehold",
-			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
-			"location":"Crofton Road Orpington BR6",
-			"picture":"images/prop2pic1small.jpg",
-			"url":"properties/prop2.html",
+            "description":"2 bedroom flat",
+            "location":"Manchester",
+			"picture":"images/prop5pic1small.jpg",
+			"url":"properties/prop5.html",
             "added": {
-                "month":"September",
-                "day":14,
-                "year":2022
+                "month":"June",
+                "day":30,
+                "year":2025
             }
         },
         {
             "id":"prop6",
 			"type":"House",
-            "bedrooms":3,
+            "bedrooms":2,
 			"price":699999,
 			"tenure":"Freehold",
-			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
-			"location":"Crofton Road Orpington BR6",
-			"picture":"images/prop2pic1small.jpg",
-			"url":"properties/prop2.html",
+			"description":"A two bedroom terrace house with good sized loft room. Upvc double glazing. <br> Gas central heating. Well fitted kitchen and small utility area. Small rear yead with access. ",
+			"location":"New Southwales",
+			"picture":"images/prop6pic1small.jpg",
+			"url":"properties/prop6.html",
             "added": {
-                "month":"September",
-                "day":14,
-                "year":2022
+                "month":"December",
+                "day":11,
+                "year":2024
             }
         },
         {
@@ -102,14 +102,14 @@
             "bedrooms":3,
 			"price":870000,
 			"tenure":"Freehold",
-			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
-			"location":"Crofton Road Orpington BR6",
-			"picture":"images/prop2pic1small.jpg",
-			"url":"properties/prop2.html",
+            "description":"3 bedroom house",
+			"location":"Birmingham",
+			"picture":"images/prop7pic1small.jpg",
+			"url":"properties/prop7.html",
             "added": {
-                "month":"September",
-                "day":14,
-                "year":2022
+                "month":"November",
+                "day":21,
+                "year":2023
             }
         }
 ]}

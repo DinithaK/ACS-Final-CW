@@ -3,6 +3,7 @@ import PropertyCard from "./PropertyCard";
 import { useState } from "react";
 import filterProperties from "../utils/filterProperties";
 import SearchBar from "./SearchBar";
+import FavouritesPanel from "./FavouritesPanel";
 
 const ResultsList = () => {
 
@@ -16,14 +17,19 @@ const ResultsList = () => {
     }
 
     return (
-        <div>
-            <SearchBar onSearch={handleSearch} />
-            <div className="results-container">
-                {filteredProperties.map((property) => (
-                    <div key={property.id} className="property-card">
-                        <PropertyCard property={property} />
-                    </div>
-                ))}
+        <div style={{ display: 'flex', gap: '20px' }}>
+            <div style={{ flex: 3 }}>
+                <SearchBar onSearch={handleSearch} />
+                <div className="results-container">
+                    {filteredProperties.map((property) => (
+                        <div key={property.id} className="property-card">
+                            <PropertyCard property={property} />
+                        </div>
+                    ))}
+                </div>
+            </div>
+            <div style={{ flex: 1 }}>
+                <FavouritesPanel />
             </div>
         </div>
     );

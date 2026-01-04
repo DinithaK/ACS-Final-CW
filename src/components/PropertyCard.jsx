@@ -1,7 +1,12 @@
 import { Link } from "react-router-dom";
 const PropertyCard = ({ property }) => {
+    const handleDragStart = (e) => {
+        e.dataTransfer.setData("application/json", JSON.stringify(property));
+        e.dataTransfer.effectAllowed = "copy";
+    };
+
     return (
-        <div>
+        <div draggable onDragStart={handleDragStart} style={{ cursor: 'grab' }}>
             <img src={property.picture} alt={property.id} />
             <h3>{property.type}</h3>
             <p>£{property.price.toLocaleString()}</p>

@@ -1,15 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 import ResultsList from './components/ResultsList'
+import { Routes, Route } from "react-router-dom";
+import PropertyPage from "./components/PropertyPage";
 
 function App() {
   return (
-    <div>
-      <h1>Real Estate Agent</h1>
-      <ResultsList/>
-    </div>
+    <Routes>
+      <Route path="/" element={<ResultsList />} />
+      <Route path="/property/:id" element={<PropertyPage />} />
+    </Routes>
   );
 }
 export default App;

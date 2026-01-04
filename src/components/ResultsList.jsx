@@ -1,6 +1,6 @@
 import data from "../data/properties.json";
 import PropertyCard from "./PropertyCard";
-import {useState} from "react";
+import { useState } from "react";
 import filterProperties from "../utils/filterProperties";
 import SearchBar from "./SearchBar";
 
@@ -17,10 +17,14 @@ const ResultsList = () => {
 
     return (
         <div>
-            <SearchBar onSearch={handleSearch}/>
-            {filteredProperties.map((property) => (
-                <PropertyCard key={property.id} property={property}/>
-            ))}
+            <SearchBar onSearch={handleSearch} />
+            <div className="results-container">
+                {filteredProperties.map((property) => (
+                    <div key={property.id} className="property-card">
+                        <PropertyCard property={property} />
+                    </div>
+                ))}
+            </div>
         </div>
     );
 };

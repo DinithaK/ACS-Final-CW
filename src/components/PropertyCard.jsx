@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-const PropertyCard = ({property}) => {
+const PropertyCard = ({ property }) => {
     return (
         <div>
-            <img src={property.picture} alt={property.id}/>
+            <img src={property.picture} alt={property.id} />
             <h3>{property.type}</h3>
-            <p>&euro{property.price}</p>
+            <p>£{property.price.toLocaleString()}</p>
             <p>{property.bedrooms} bedrooms</p>
             <p>{property.postcode}</p>
 

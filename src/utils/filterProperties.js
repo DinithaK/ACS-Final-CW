@@ -17,6 +17,9 @@ const filterProperties = (properties, criteria) => {
         if (criteria.minBedrooms && property.bedrooms < criteria.minBedrooms) {
             return false;
         }
+        if (criteria.bedrooms && property.bedrooms < criteria.bedrooms) {
+            return false;
+        }
         if (criteria.maxBedrooms && property.bedrooms > criteria.maxBedrooms) {
             return false;
         }

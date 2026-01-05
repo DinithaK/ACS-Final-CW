@@ -36,6 +36,9 @@ const PropertyCard = ({ property }) => {
                         <p style={{ fontSize: '0.9em', color: 'var(--text-muted)', margin: '5px 0 0 0' }}>
                             {property.location}
                         </p>
+                        <p style={{ fontSize: '0.9em', color: 'var(--text-muted)', marginTop: '8px', display: '-webkit-box', WebkitLineClamp: '2', WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
+                            {property.description}
+                        </p>
                     </div>
                 </div>
 

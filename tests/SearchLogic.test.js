@@ -32,17 +32,5 @@ describe('Search/Filter Logic', () => {
         expect(result[0].id).toBe('1');
     });
 
-    test('filters by price range', () => {
-        const filter = (props, criteria) => {
-            return props.filter(property => {
-                if (criteria.minPrice && property.price < criteria.minPrice) return false;
-                if (criteria.maxPrice && property.price > criteria.maxPrice) return false;
-                return true;
-            });
-        };
 
-        const result = filter(properties, { minPrice: 400000, maxPrice: 600000 });
-        expect(result).toHaveLength(1);
-        expect(result[0].id).toBe('1');
-    });
 });

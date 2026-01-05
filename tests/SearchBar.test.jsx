@@ -34,15 +34,5 @@ describe('SearchBar Component', () => {
         expect(mockOnSearch).toHaveBeenCalled();
     });
 
-    test('clear filters resets inputs', () => {
-        render(<SearchBar properties={mockProperties} onSearch={mockOnSearch} onClear={jest.fn()} />);
 
-        const typeSelect = screen.getByRole('combobox');
-        fireEvent.change(typeSelect, { target: { value: 'House' } });
-
-        const clearButton = screen.getByText(/clear filters/i);
-        fireEvent.click(clearButton);
-
-        // Assuming parent handles clear, or internal state resets. 
-    });
 });

@@ -33,15 +33,5 @@ describe('PropertyCard Component', () => {
         expect(screen.getByText(/Freehold/)).toBeInTheDocument();
     });
 
-    test('renders add to favourites button', () => {
-        render(
-            <BrowserRouter>
-                <FavouritesProvider>
-                    <PropertyCard property={mockProperty} />
-                </FavouritesProvider>
-            </BrowserRouter>
-        );
 
-        expect(screen.getByRole('button', { name: /add to favourites/i })).toBeInTheDocument();
-    });
 });

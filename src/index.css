@@ -289,6 +289,13 @@ select:focus {
   border: 1px solid transparent;
 }
 
+.fav-thumbnail {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
 .fav-item:hover {
   border-color: var(--primary-color);
 }

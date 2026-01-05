@@ -1,9 +1,23 @@
 import { Link } from "react-router-dom";
+import { useFavourites } from "../context/FavouritesContext";
+
 
 const PropertyCard = ({ property }) => {
+    const { addFavourite, removeFavourite, isFavourite } = useFavourites();
+    const isFav = isFavourite(property.id);
+
     const handleDragStart = (e) => {
         e.dataTransfer.setData("application/json", JSON.stringify(property));
         e.dataTransfer.effectAllowed = "copy";
+    };
+
+    const toggleFavourite = (e) => {
+        e.preventDefault(); // Prevent navigation if clicking the button triggers Link (optional safety)
+        if (isFav) {
+            removeFavourite(property.id);
+        } else {
+            addFavourite(property);
+        }
     };
 
     return (
@@ -33,10 +47,25 @@ const PropertyCard = ({ property }) => {
                     <span>{property.tenure}</span>
                 </div>
 
-                <div className="card-actions">
-                    <Link to={`/property/${property.id}`} className="view-btn">
+                <div className="card-actions" style={{ display: 'flex', gap: '10px' }}>
+                    <Link to={`/property/${property.id}`} className="view-btn" style={{ flex: 1 }}>
                         View Details
                     </Link>
+                    <button
+                        onClick={toggleFavourite}
+                        style={{
+                            background: isFav ? '#d9534f' : 'transparent',
+                            border: '1px solid ' + (isFav ? '#d9534f' : 'var(--primary-color)'),
+                            color: isFav ? 'white' : 'var(--primary-color)',
+                            padding: '8px',
+                            borderRadius: '6px',
+                            cursor: 'pointer',
+                            flex: 1,
+                            fontWeight: 600
+                        }}
+                    >
+                        {isFav ? 'Remove' : 'Favourite'}
+                    </button>
                 </div>
             </div>
         </div>

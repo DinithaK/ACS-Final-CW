@@ -322,6 +322,37 @@ select:focus {
     object-fit: cover;
     border-radius: 12px;
     box-shadow: var(--shadow-md);
+    transition: opacity 0.3s;
+  }
+
+  .gallery-thumbnails {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+    padding-bottom: 5px;
+  }
+
+  .thumbnail {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all 0.2s;
+    border: 2px solid transparent;
+  }
+
+  .thumbnail:hover {
+    opacity: 1;
+  }
+
+  .thumbnail.active {
+    opacity: 1;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 4px rgba(100, 108, 255, 0.2);
   }
 
   .prop-header {

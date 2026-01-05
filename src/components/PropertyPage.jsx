@@ -3,6 +3,7 @@ import data from "../data/properties.json";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import { useFavourites } from "../context/FavouritesContext";
+import { useState } from "react";
 
 const PropertyPage = () => {
     const { id } = useParams();
@@ -12,6 +13,8 @@ const PropertyPage = () => {
         (p) => p.id === id
     );
 
+    const [mainImage, setMainImage] = useState(property ? `/${property.picture}` : '');
+
     if (!property) {
         return (
             <div className="app-container" style={{ textAlign: 'center', marginTop: '50px' }}>
@@ -19,6 +22,14 @@ const PropertyPage = () => {
                 <Link to="/" className="view-btn" style={{ display: 'inline-block', marginTop: '20px' }}>Back to Search</Link>
             </div>
         );
+    }
+
+    const images = property.images && property.images.length > 0
+        ? property.images.map(img => `/${img}`)
+        : [`/${property.picture}`];
+
+    if (!mainImage && images.length > 0) {
+        setMainImage(images[0]);
     }
 
     const isFav = isFavourite(property.id);
@@ -37,8 +48,21 @@ const PropertyPage = () => {
                 &larr; Back to Results
             </Link>
 
-            <div className="prop-hero-image">
-                <img src={`/${property.picture}`} alt={property.type} />
+            <div className="gallery-container">
+                <div className="prop-hero-image">
+                    <img src={mainImage} alt={property.type} />
+                </div>
+                <div className="gallery-thumbnails">
+                    {images.map((img, index) => (
+                        <img
+                            key={index}
+                            src={img}
+                            alt={`Thumbnail ${index + 1}`}
+                            className={`thumbnail ${mainImage === img ? 'active' : ''}`}
+                            onClick={() => setMainImage(img)}
+                        />
+                    ))}
+                </div>
             </div>
 
             <div className="property-page-container">
@@ -79,9 +103,10 @@ const PropertyPage = () => {
                                 style={{ border: 0, borderRadius: '8px' }}
                                 loading="lazy"
                                 allowFullScreen
-                                src={`https://www.google.com/maps/embed/v1/place?key=TEST_KEY&q=${encodeURIComponent(property.location)}`}>
+                                src={`https://maps.google.com/maps?q=${encodeURIComponent(property.location)}&t=&z=13&ie=UTF8&iwloc=&output=embed`}
+                            >
                             </iframe>
-                            <p style={{ fontSize: '0.8em', color: 'var(--text-muted)', marginTop: '10px' }}>* Note: Google Maps API key required for full functionality.</p>
+                            <p style={{ fontSize: '0.8em', color: 'var(--text-muted)', marginTop: '10px' }}>* Note: Map display may vary without a dedicated API key.</p>
                         </TabPanel>
                     </Tabs>
                 </div>

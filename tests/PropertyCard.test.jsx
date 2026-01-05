@@ -19,7 +19,7 @@ const mockProperty = {
 describe('PropertyCard Component', () => {
     test('renders property details correctly', () => {
         render(
-            <BrowserRouter>
+            <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
                 <FavouritesProvider>
                     <PropertyCard property={mockProperty} />
                 </FavouritesProvider>

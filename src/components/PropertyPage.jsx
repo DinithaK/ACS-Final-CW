@@ -91,9 +91,19 @@ const PropertyPage = () => {
                         </TabPanel>
                         <TabPanel>
                             <h3>Floor Plan</h3>
-                            <div style={{ background: '#eee', padding: '50px', textAlign: 'center', borderRadius: '8px', border: '2px dashed #ccc' }}>
-                                <p>Floor plan image placeholder</p>
-                            </div>
+                            {property.floorPlan ? (
+                                <div style={{ textAlign: 'center', background: '#f9f9f9', padding: '20px', borderRadius: '8px' }}>
+                                    <img
+                                        src={`/${property.floorPlan}`}
+                                        alt="Floor Plan"
+                                        style={{ maxWidth: '100%', height: 'auto', borderRadius: '4px' }}
+                                    />
+                                </div>
+                            ) : (
+                                <div style={{ background: '#eee', padding: '50px', textAlign: 'center', borderRadius: '8px', border: '2px dashed #ccc' }}>
+                                    <p>Floor plan not available</p>
+                                </div>
+                            )}
                         </TabPanel>
                         <TabPanel>
                             <h3>Location Map</h3>
@@ -106,7 +116,7 @@ const PropertyPage = () => {
                                 src={`https://maps.google.com/maps?q=${encodeURIComponent(property.location)}&t=&z=13&ie=UTF8&iwloc=&output=embed`}
                             >
                             </iframe>
-                            <p style={{ fontSize: '0.8em', color: 'var(--text-muted)', marginTop: '10px' }}>* Note: Map display may vary without a dedicated API key.</p>
+
                         </TabPanel>
                     </Tabs>
                 </div>

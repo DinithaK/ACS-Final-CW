@@ -9,15 +9,16 @@
             "description": "An attractive three bedroom semi-detached family home situated in a sought-after location in Petts Wood. This property features a spacious through lounge, a modern fitted kitchen, and a beautiful rear garden perfect for entertaining. Upstairs, you will find three well-proportioned bedrooms and a contemporary family bathroom. The property further benefits from off-street parking and excellent transport links to Central London.",
             "location": "Petts Wood Road, Petts Wood, Orpington BR5",
             "postcode": "BR5",
-            "picture": "images/prop1pic1small.jpg",
+            "picture": "images/p1.jpeg",
             "images": [
-                "images/prop1pic1small.jpg",
-                "images/prop1pic1small.jpg",
-                "images/prop1pic1small.jpg",
-                "images/prop1pic1small.jpg",
-                "images/prop1pic1small.jpg",
-                "images/prop1pic1small.jpg"
+                "images/p1.jpeg",
+                "images/p1.2.jpeg",
+                "images/p1.3.jpeg",
+                "images/p1.4.jpeg",
+                "images/p1.5.jpeg",
+                "images/p1.6.jpeg"
             ],
+            "floorPlan": "images/p1FP.png",
             "url": "properties/prop1.html",
             "added": {
                 "month": "October",
@@ -35,15 +36,16 @@
             "description": "Presented in excellent decorative order, this two-bedroom flat offers modern living in a convenient Orpington location. The property comprises a bright and airy open-plan living area, a sleek kitchen with integrated appliances, and two double bedrooms. Additional highlights include a stylish bathroom, allocated parking, and close proximity to local amenities and Orpington station.",
             "location": "Crofton Road Orpington BR6",
             "postcode": "BR6",
-            "picture": "images/prop2pic1small.jpg",
+            "picture": "images/p2.jpeg",
             "images": [
-                "images/prop2pic1small.jpg",
-                "images/prop2pic1small.jpg",
-                "images/prop2pic1small.jpg",
-                "images/prop2pic1small.jpg",
-                "images/prop2pic1small.jpg",
-                "images/prop2pic1small.jpg"
+                "images/p2.jpeg",
+                "images/p2.2.jpeg",
+                "images/p2.3.jpeg",
+                "images/p2.4.jpeg",
+                "images/p2.5.jpeg",
+                "images/p2.6.jpeg"
             ],
+            "floorPlan": "images/p2FP.png",
             "url": "properties/prop2.html",
             "added": {
                 "month": "September",
@@ -61,15 +63,16 @@
             "description": "A stunning three-bedroom flat located in the heart of Central London, offering easy access to the city's finest attractions. This property boasts a generous reception room with large windows, a separate fitted kitchen, and three comfortable bedrooms. Although previously owned by a smoker, it presents a fantastic opportunity for refurbishment and customization in a prime SW1 location.",
             "location": "London SW1",
             "postcode": "SW1",
-            "picture": "images/prop3pic1small.jpg",
+            "picture": "images/p3.jpeg",
             "images": [
-                "images/prop3pic1small.jpg",
-                "images/prop3pic1small.jpg",
-                "images/prop3pic1small.jpg",
-                "images/prop3pic1small.jpg",
-                "images/prop3pic1small.jpg",
-                "images/prop3pic1small.jpg"
+                "images/p3.jpeg",
+                "images/p3.2.jpeg",
+                "images/p3.3.jpeg",
+                "images/p3.4.jpeg",
+                "images/p3.5.jpeg",
+                "images/p3.6.jpeg"
             ],
+            "floorPlan": "images/p3FP.png",
             "url": "properties/prop3.html",
             "added": {
                 "month": "January",
@@ -87,15 +90,16 @@
             "description": "This substantial four-bedroom detached house in Brampton offers exceptional family accommodation. Set within nearly two acres of beautiful gardens, the property features a large driveway, a garage, and spacious interiors including a formal dining room and a conservatory. It provides a peaceful retreat with stunning countryside views while remaining accessible to local schools and shops.",
             "location": "Brampton CA8",
             "postcode": "CA8",
-            "picture": "images/prop4pic1small.jpg",
+            "picture": "images/p4.jpeg",
             "images": [
-                "images/prop4pic1small.jpg",
-                "images/prop4pic1small.jpg",
-                "images/prop4pic1small.jpg",
-                "images/prop4pic1small.jpg",
-                "images/prop4pic1small.jpg",
-                "images/prop4pic1small.jpg"
+                "images/p4.jpeg",
+                "images/p4.2.jpeg",
+                "images/p4.3.jpeg",
+                "images/p4.4.jpeg",
+                "images/p4.5.jpeg",
+                "images/p4.6.jpeg"
             ],
+            "floorPlan": "images/p4FP.png",
             "url": "properties/prop4.html",
             "added": {
                 "month": "April",
@@ -113,15 +117,16 @@
             "description": "A contemporary two-bedroom apartment situated in the vibrant city center of Manchester. Ideal for professionals or investors, this property features an open-plan living and dining area, a modern kitchen, and a master bedroom with an en-suite. Residents enjoy easy access to the city's bustling nightlife, shopping districts, and transport networks.",
             "location": "Manchester M1",
             "postcode": "M1",
-            "picture": "images/prop5pic1small.jpg",
+            "picture": "images/p5.jpeg",
             "images": [
-                "images/prop5pic1small.jpg",
-                "images/prop5pic1small.jpg",
-                "images/prop5pic1small.jpg",
-                "images/prop5pic1small.jpg",
-                "images/prop5pic1small.jpg",
-                "images/prop5pic1small.jpg"
+                "images/p5.jpeg",
+                "images/p5.2.jpeg",
+                "images/p5.3.jpeg",
+                "images/p5.4.jpeg",
+                "images/p5.5.jpeg",
+                "images/p5.6.jpeg"
             ],
+            "floorPlan": "images/p5FP.png",
             "url": "properties/prop5.html",
             "added": {
                 "month": "June",
@@ -139,15 +144,16 @@
             "description": "A charming two-bedroom terrace house located in a quiet residential area of New South Wales. This property offers a cozy living room with a feature fireplace, a fully equipped kitchen, and a low-maintenance rear garden. Perfect for first-time buyers or downsizers, it combines character with modern comfort and is within walking distance of local parks and schools.",
             "location": "New South Wales NP11",
             "postcode": "NP11",
-            "picture": "images/prop6pic1small.jpg",
+            "picture": "images/p6.jpeg",
             "images": [
-                "images/prop6pic1small.jpg",
-                "images/prop6pic1small.jpg",
-                "images/prop6pic1small.jpg",
-                "images/prop6pic1small.jpg",
-                "images/prop6pic1small.jpg",
-                "images/prop6pic1small.jpg"
+                "images/p6.jpeg",
+                "images/p6.2.jpeg",
+                "images/p6.3.jpeg",
+                "images/p6.4.jpeg",
+                "images/p6.5.jpeg",
+                "images/p6.6.jpeg"
             ],
+            "floorPlan": "images/p6FP.png",
             "url": "properties/prop6.html",
             "added": {
                 "month": "December",
@@ -165,15 +171,16 @@
             "description": "An immaculate three-bedroom detached home in a prestigious Birmingham neighborhood. This property features a stylish open-plan kitchen and family room, a separate lounge, and a landscaped garden. The master bedroom benefits from luxury en-suite facilities, and the property includes a private driveway. Viewing is highly recommended to appreciate the quality of finish throughout.",
             "location": "Birmingham B1",
             "postcode": "B1",
-            "picture": "images/prop7pic1small.jpg",
+            "picture": "images/p7.jpeg",
             "images": [
-                "images/prop7pic1small.jpg",
-                "images/prop7pic1small.jpg",
-                "images/prop7pic1small.jpg",
-                "images/prop7pic1small.jpg",
-                "images/prop7pic1small.jpg",
-                "images/prop7pic1small.jpg"
+                "images/p7.jpeg",
+                "images/p7.2.jpeg",
+                "images/p7.3.jpeg",
+                "images/p7.4.jpeg",
+                "images/p7.5.jpeg",
+                "images/p7.6.jpeg"
             ],
+            "floorPlan": "images/p7FP.png",
             "url": "properties/prop7.html",
             "added": {
                 "month": "November",

@@ -117,6 +117,24 @@ select:focus {
   padding: 20px;
 }
 
+.main-header {
+  background-color: var(--card-bg);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.main-header .app-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.main-header h1 {
+  font-size: 2em;
+  color: var(--primary-color);
+  margin: 0;
+}
+
 /* Search Bar */
 .search-bar {
   display: grid;

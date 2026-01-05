@@ -57,11 +57,11 @@
         {
             "id": "prop3",
             "type": "Flat",
-            "bedrooms": 3,
-            "price": 455000,
-            "tenure": "Freehold",
-            "description": "A stunning three-bedroom flat located in the heart of Central London, offering easy access to the city's finest attractions. This property boasts a generous reception room with large windows, a separate fitted kitchen, and three comfortable bedrooms. Although previously owned by a smoker, it presents a fantastic opportunity for refurbishment and customization in a prime SW1 location.",
-            "location": "London SW1",
+            "bedrooms": 2,
+            "price": 399995,
+            "tenure": "Leasehold",
+            "description": "A stylish and modern two bedroom apartment situated in the heart of London. This property boasts an open-plan living area with floor-to-ceiling windows, a high-spec kitchen with integrated appliances, and a private balcony with stunning city views. The building offers 24-hour concierge service and a residents' gym. Ideal for professionals working in the city.",
+            "location": "Chelsea Bridge Wharf, London SW11",
             "postcode": "SW1",
             "picture": "images/p3.jpeg",
             "images": [
@@ -76,19 +76,19 @@
             "url": "properties/prop3.html",
             "added": {
                 "month": "January",
-                "day": 21,
+                "day": 4,
                 "year": 2023
             },
-            "addedDate": "2023-01-21"
+            "addedDate": "2023-01-04"
         },
         {
             "id": "prop4",
             "type": "House",
             "bedrooms": 4,
-            "price": 869000,
+            "price": 550000,
             "tenure": "Freehold",
-            "description": "This substantial four-bedroom detached house in Brampton offers exceptional family accommodation. Set within nearly two acres of beautiful gardens, the property features a large driveway, a garage, and spacious interiors including a formal dining room and a conservatory. It provides a peaceful retreat with stunning countryside views while remaining accessible to local schools and shops.",
-            "location": "Brampton CA8",
+            "description": "A magnificent four bedroom detached farmhouse set within extensive grounds in the picturesque Cumbrian countryside. This characterful property features exposed beams, a large farmhouse kitchen with an Aga, and a cozy lounge with a log burner. Outside, there are landscaped gardens, a paddock, and outbuildings with potential for conversion.",
+            "location": "Brampton, Cumbria CA8",
             "postcode": "CA8",
             "picture": "images/p4.jpeg",
             "images": [
@@ -103,19 +103,19 @@
             "url": "properties/prop4.html",
             "added": {
                 "month": "April",
-                "day": 8,
-                "year": 2024
+                "day": 19,
+                "year": 2023
             },
-            "addedDate": "2024-04-08"
+            "addedDate": "2023-04-19"
         },
         {
             "id": "prop5",
             "type": "Flat",
-            "bedrooms": 2,
-            "price": 254500,
-            "tenure": "Freehold",
-            "description": "A contemporary two-bedroom apartment situated in the vibrant city center of Manchester. Ideal for professionals or investors, this property features an open-plan living and dining area, a modern kitchen, and a master bedroom with an en-suite. Residents enjoy easy access to the city's bustling nightlife, shopping districts, and transport networks.",
-            "location": "Manchester M1",
+            "bedrooms": 1,
+            "price": 250000,
+            "tenure": "Leasehold",
+            "description": "A contemporary one bedroom apartment located in the vibrant Northern Quarter of Manchester. The property comprises a bright open-plan living/dining area, a sleek modern kitchen, a double bedroom with fitted wardrobes, and a stylish bathroom. The development is close to an array of trendy bars, restaurants, and transport links.",
+            "location": "Northern Quarter, Manchester M1",
             "postcode": "M1",
             "picture": "images/p5.jpeg",
             "images": [
@@ -129,20 +129,20 @@
             "floorPlan": "images/p5FP.png",
             "url": "properties/prop5.html",
             "added": {
-                "month": "June",
-                "day": 30,
-                "year": 2025
+                "month": "August",
+                "day": 12,
+                "year": 2023
             },
-            "addedDate": "2025-06-30"
+            "addedDate": "2023-08-12"
         },
         {
             "id": "prop6",
             "type": "House",
-            "bedrooms": 2,
-            "price": 699999,
+            "bedrooms": 5,
+            "price": 625000,
             "tenure": "Freehold",
-            "description": "A charming two-bedroom terrace house located in a quiet residential area of New South Wales. This property offers a cozy living room with a feature fireplace, a fully equipped kitchen, and a low-maintenance rear garden. Perfect for first-time buyers or downsizers, it combines character with modern comfort and is within walking distance of local parks and schools.",
-            "location": "New South Wales NP11",
+            "description": "An impressive five bedroom detached family home offering spacious and versatile accommodation. The property features a large lounge, a separate dining room, a study, and a stunning kitchen/breakfast room opening onto the garden. Upstairs, the master bedroom benefits from an en-suite, and there are four further double bedrooms. Double garage and driveway.",
+            "location": "Caerphilly, South Wales NP11",
             "postcode": "NP11",
             "picture": "images/p6.jpeg",
             "images": [
@@ -156,20 +156,20 @@
             "floorPlan": "images/p6FP.png",
             "url": "properties/prop6.html",
             "added": {
-                "month": "December",
-                "day": 11,
-                "year": 2024
+                "month": "November",
+                "day": 20,
+                "year": 2023
             },
-            "addedDate": "2024-12-11"
+            "addedDate": "2023-11-20"
         },
         {
             "id": "prop7",
-            "type": "House",
-            "bedrooms": 3,
-            "price": 870000,
-            "tenure": "Freehold",
-            "description": "An immaculate three-bedroom detached home in a prestigious Birmingham neighborhood. This property features a stylish open-plan kitchen and family room, a separate lounge, and a landscaped garden. The master bedroom benefits from luxury en-suite facilities, and the property includes a private driveway. Viewing is highly recommended to appreciate the quality of finish throughout.",
-            "location": "Birmingham B1",
+            "type": "Flat",
+            "bedrooms": 2,
+            "price": 320000,
+            "tenure": "Leasehold",
+            "description": "A superbly presented two bedroom apartment situated in a prime city centre location. The property offers a generous open-plan living space, a fully fitted kitchen, two double bedrooms (master with en-suite), and a modern main bathroom. Include allocated parking and access to communal gardens. Walking distance to shops and station.",
+            "location": "Birmingham City Centre B1",
             "postcode": "B1",
             "picture": "images/p7.jpeg",
             "images": [
@@ -183,11 +183,11 @@
             "floorPlan": "images/p7FP.png",
             "url": "properties/prop7.html",
             "added": {
-                "month": "November",
-                "day": 21,
+                "month": "December",
+                "day": 5,
                 "year": 2023
             },
-            "addedDate": "2023-11-21"
+            "addedDate": "2023-12-05"
         }
     ]
 }

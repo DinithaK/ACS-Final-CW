@@ -24,15 +24,17 @@ const filterProperties = (properties, criteria) => {
             return false;
         }
 
-        // Postcode Area (e.g. "BR1" matches "BR1 2AB")
+        // Postcode Area (User provided logic: check last part of location string)
         if (criteria.postcodeArea) {
-            // Safe check if property has postcode
-            const propPostcode = property.postcode || "";
-            if (!propPostcode.toLowerCase().startsWith(criteria.postcodeArea.toLowerCase())) {
-                // Fallback: Check location string if postcode field is missing
-                if (!property.location.toLowerCase().includes(criteria.postcodeArea.toLowerCase())) {
-                    return false;
-                }
+            const lastPart = property.location.split(' ').pop().toLowerCase();
+            const searchPostcode = criteria.postcodeArea.toLowerCase();
+
+            // Check if dedicated postcode matches OR if the last part of location matches
+            const matchesPostcodeField = property.postcode && property.postcode.toLowerCase().startsWith(searchPostcode);
+            const matchesLocationSuffix = lastPart.startsWith(searchPostcode);
+
+            if (!matchesPostcodeField && !matchesLocationSuffix) {
+                return false;
             }
         }
 

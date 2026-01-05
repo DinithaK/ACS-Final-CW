@@ -5,15 +5,7 @@ const FavouritesContext = createContext();
 export const useFavourites = () => useContext(FavouritesContext);
 
 export const FavouritesProvider = ({ children }) => {
-    const [favourites, setFavourites] = useState(() => {
-        // Load from local storage on initial render
-        const saved = localStorage.getItem('favourites');
-        return saved ? JSON.parse(saved) : [];
-    });
-
-    useEffect(() => {
-        localStorage.setItem('favourites', JSON.stringify(favourites));
-    }, [favourites]);
+    const [favourites, setFavourites] = useState([]);
 
     const addFavourite = (property) => {
         setFavourites((prev) => {

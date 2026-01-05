@@ -27,7 +27,7 @@ const PropertyCard = ({ property }) => {
             className="property-card"
             style={{ cursor: 'grab' }}
         >
-            <img src={property.picture} alt={property.id} />
+            <img src={`${import.meta.env.BASE_URL}${property.picture}`} alt={property.id} />
 
             <div className="card-content">
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'start' }}>

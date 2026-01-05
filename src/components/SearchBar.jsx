@@ -10,7 +10,7 @@ const SearchBar = ({ onSearch, onClear }) => {
             maxPrice: Number(formData.get("maxPrice")) || null,
             minBedrooms: Number(formData.get("minBedrooms")) || null,
             maxBedrooms: Number(formData.get("maxBedrooms")) || null,
-            postcodeArea: formData.get("postcodeArea"),
+            postcodeArea: formData.get("postcodeArea").trim(),
             addedAfter: formData.get("addedAfter") || null,
         };
         onSearch(criteria);
@@ -59,7 +59,7 @@ const SearchBar = ({ onSearch, onClear }) => {
                 <input type="date" name="addedAfter" placeholder="Added After" />
             </div>
 
-            <div className="search-actions" style={{ display: 'flex', gap: '10px', alignItems: 'flex-end', gridColumn: 'span 2' }}>
+            <div className="search-actions" style={{ display: 'flex', gap: '10px', alignItems: 'flex-end' }}>
                 <button type="submit" style={{ flex: 2, height: '42px' }}>Search</button>
                 <button
                     type="button"

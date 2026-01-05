@@ -13,7 +13,7 @@ const PropertyPage = () => {
         (p) => p.id === id
     );
 
-    const [mainImage, setMainImage] = useState(property ? `/${property.picture}` : '');
+    const [mainImage, setMainImage] = useState(property ? `${import.meta.env.BASE_URL}${property.picture}` : '');
 
     if (!property) {
         return (
@@ -25,8 +25,8 @@ const PropertyPage = () => {
     }
 
     const images = property.images && property.images.length > 0
-        ? property.images.map(img => `/${img}`)
-        : [`/${property.picture}`];
+        ? property.images.map(img => `${import.meta.env.BASE_URL}${img}`)
+        : [`${import.meta.env.BASE_URL}${property.picture}`];
 
     if (!mainImage && images.length > 0) {
         setMainImage(images[0]);
@@ -94,7 +94,7 @@ const PropertyPage = () => {
                             {property.floorPlan ? (
                                 <div style={{ textAlign: 'center', background: '#f9f9f9', padding: '20px', borderRadius: '8px' }}>
                                     <img
-                                        src={`/${property.floorPlan}`}
+                                        src={`${import.meta.env.BASE_URL}${property.floorPlan}`}
                                         alt="Floor Plan"
                                         style={{ maxWidth: '100%', height: 'auto', borderRadius: '4px' }}
                                     />

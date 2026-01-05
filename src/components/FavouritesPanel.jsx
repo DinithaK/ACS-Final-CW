@@ -46,7 +46,7 @@ const FavouritesPanel = () => {
                                 // Allow dragging OUT of favourites (optional requirement implementation)
                                 e.dataTransfer.setData("propertyId", fav.id);
                             }} style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                                <img src={`/${fav.picture}`} alt={fav.type} className="fav-thumbnail" />
+                                <img src={`${import.meta.env.BASE_URL}${fav.picture}`} alt={fav.type} className="fav-thumbnail" />
                                 <div>
                                     <Link to={`/property/${fav.id}`} style={{ fontSize: '0.9em', display: 'block', fontWeight: 'bold' }}>{fav.type}</Link>
                                     <span style={{ fontSize: '0.8em', color: 'var(--text-muted)' }}>£{fav.price.toLocaleString()}</span>
